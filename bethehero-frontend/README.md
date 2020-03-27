@@ -1,3 +1,7 @@
+# omnistack11-react
+Frontend - 'Be The Hero' Project. </br>
+The project is an ONGs management application where the user can register and execute cases.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
