@@ -2,8 +2,15 @@ import React from "react";
 
 import "./styles.css";
 
+import heroesImg from "../../assets/heroes.png";
+
 function Logon() {
-  return <h1>Hello World</h1>;
+  return (
+    <div className="logon-container">
+      <section className="form"></section>
+      <img src={heroesImg} alt="Heroes" />
+    </div>
+  );
 }
 
 export default Logon;
