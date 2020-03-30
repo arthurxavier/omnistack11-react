@@ -13,10 +13,8 @@
 
 ### :rocket: Tecnologias usadas
 Este projeto foi desenvolvido com as seguintes tecnologias:
-- [Node.js](https://nodejs.org/en/)
-- [Expo](https://expo.io/)
-- [Express](https://expressjs.com/pt-br/)
 - [React](https://pt-br.reactjs.org/)
+- [Axios](https://github.com/axios/axios)
 - [React Icons](https://github.com/react-icons/react-icons)
 - [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 
