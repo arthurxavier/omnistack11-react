@@ -1,5 +1,5 @@
 <h4 align="center">
-<img src="./img/logo.png" width="250px" /><br>
+<img src="./src/assets/logo.png" width="250px" /><br>
  <b>Seja um verdadeiro Heroi!</b> 🦸‍♂️
 </h4>
 <p align="center">
