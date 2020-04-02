@@ -4,7 +4,7 @@ import { FiPower, FiTrash2 } from "react-icons/fi";
 
 import "./styles.css";
 
-import api from "../../services";
+import api from "../../services/api";
 
 import logoImg from "../../assets/logo.svg";
 
@@ -33,7 +33,7 @@ function Profile() {
         }
       });
 
-      setIncidents(incidents.filter(incidents => incidents.id !== id));
+      setIncidents(incidents.filter(incident => incident.id !== id));
     } catch (err) {
       alert("Erro ao deletar caso, tente novamente.");
     }
@@ -73,7 +73,7 @@ function Profile() {
             </p>
 
             <button
-              onClick={() => handleDeleteIncident(incidents.id)}
+              onClick={() => handleDeleteIncident(incident.id)}
               type="button"
             >
               <FiTrash2 size={20} color="#a8a8b3" />
